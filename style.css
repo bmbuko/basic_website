@@ -1,0 +1,124 @@
+
+body {
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+.header {
+  padding: 1em;
+  margin: 1em;
+}
+
+
+
+.city {
+  /* display: flex; */
+  border: 1px solid black;
+  margin: 1em;
+  padding: 1em
+}
+
+.city_image {
+  float: left;
+  margin: 1em;
+}
+
+.text {
+  float: right;
+  padding: 1em;
+}
+
+.container {
+  padding: 1em;
+  background-color: lightgrey
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px;
+}
+
+.name {
+  padding: 1em;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 44px;
+  font-style: italic;
+}
+
+.places {  
+  flex: 1;
+
+}
+
+.the_places {
+  border: 1px solid black;
+}
+
+
+.Cathedral {
+  padding: 1em;
+  
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.the {
+  overflow: auto;
+}
+
+
+.img1 {
+  float: right;
+  padding: 1em;
+}
+
+.Lodge {
+  padding: 1em;
+}
+.busi {
+  overflow: auto;
+}
+.img2{
+  float: right;
+  padding: 1em;
+}
+.luck {
+  overflow: auto;
+}
+
+.Castle {
+  padding: 1em;
+
+}
+.img3{
+  float: right;
+  padding: 1em;
+}
+
+@media only screen and (min-width:800px) {
+
+
+
+  .places {
+    display: flex;
+    
+    
+  }
+
+  .the_places {
+    /* border: 1px solid black; */
+    background-color: lightseagreen;
+  }
+
+  .header {
+    display: flex;
+  }
+}
