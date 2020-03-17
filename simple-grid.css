@@ -195,7 +195,7 @@ p {
   }
 
   .col-2 {
-    width: 12.66%;
+    width: 15.66%;
   }
 
   .col-3 {
@@ -204,6 +204,7 @@ p {
 
   .col-4 {
     width: 29.33%;
+    display: -ms-inline-flexbox;
   }
 
   .col-5 {
